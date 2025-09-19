@@ -93,7 +93,7 @@ h2 {
     }
 }
 
-/*Extra large devices (laptops 1200px and up)*/
+/*Extra large devices (laptops & desktops 1200px and up)*/
 @media screen and (min-width: 1200px) {
     /*Make all service cards the same height for consistency*/
     #services .card-body {
@@ -101,7 +101,7 @@ h2 {
     }
 }
 
-/*Extra extra large devices (laptops & desktops 1400px and up)*/
+/*Extra extra large devices (larger desktops 1400px and up)*/
 @media screen and (min-width: 1400px) {
     /*Make all service cards the same height for consistency*/
     #services .card-body {

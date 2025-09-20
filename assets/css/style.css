@@ -106,7 +106,7 @@ h2 {
     background-color: transparent;
 }
 
-Grid visualisation for testing 
+/*Grid visualisation for testing 
 .container,
 .row {
     border: 2px solid black;
@@ -115,7 +115,7 @@ Grid visualisation for testing
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+}*/
 
 /*Media Queries*/
 /*Medium devices (tablets 768px and up)*/

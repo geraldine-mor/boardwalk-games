@@ -65,6 +65,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*New Games Section*/
+#new-games .card,
+#fav-games .card {
+    border-style: none;
+}
+
 /* Grid visualisation for testing 
 .container,
 .row {

@@ -90,16 +90,20 @@ h2 {
 }
 
 /*Events Section*/
+#events .table {
+    /*events table set font size small enough that it doesn't overflow on small screens - restored in a media query*/
+    font-size: 0.7rem;
+}
+
 #student-discount {
     background-color: var(--highlight-color);
     color: white;
     font-weight: bold;
-    line-height: 2;
-    font-size: 0.8em;
-}
-
-#events .custom-button-outline {
-    align-self: center;
+    display: block;
+    margin: auto;
+    font-size: 0.8rem;
+    max-width: 300px;
+    padding: 5px 10px;
 }
 
 /*Game Library Cards*/
@@ -155,11 +159,11 @@ h2 {
 }*/
 
 /*Media Queries*/
-/*Small devices (mobiles 375px and under)*/
-@media screen and (max-width: 375px) {
-    /*Make events table visible and on screen on small mobiles*/
-    #events .table-hover *{
-        font-size: 0.85em;
+/*Small devices (mobiles 576px and up)*/
+@media screen and (min-width: 576px) {
+    /*Restore events table to full size on small screens and up*/
+    #events .table {
+        font-size: 1rem;
     }
     
 }

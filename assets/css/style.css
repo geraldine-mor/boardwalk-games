@@ -55,7 +55,6 @@ h2 {
 
 .custom-button-outline {
     border: 2px solid var(--highlight-color);
-    background-color: transparent;
     color: var(--highlight-color);
     padding: 7px 25px;
 }
@@ -88,6 +87,19 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/*Events Section*/
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 0.8em;
+}
+
+#events .custom-button-outline {
+    align-self: center;
 }
 
 /*Game Library Cards*/
@@ -143,6 +155,15 @@ h2 {
 }*/
 
 /*Media Queries*/
+/*Small devices (mobiles 375px and under)*/
+@media screen and (max-width: 375px) {
+    /*Make events table visible and on screen on small mobiles*/
+    #events .table-hover *{
+        font-size: 0.85em;
+    }
+    
+}
+
 /*Medium devices (tablets 768px and up)*/
 @media screen and (min-width: 768px) {
     /*Make all service cards the same height for consistency*/
